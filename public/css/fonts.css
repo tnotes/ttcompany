@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('../fonts/RobotoRegular.eot');
+    src: url('../fonts/RobotoRegular.eot') format('embedded-opentype'),
+         url('../fonts/RobotoRegular.woff2') format('woff2'),
+         url('../fonts/RobotoRegular.woff') format('woff'),
+         url('../fonts/RobotoRegular.ttf') format('truetype'),
+         url('../fonts/RobotoRegular.svg#RobotoRegular') format('svg');
+}
+@font-face {
+    font-family: 'RobotoBold';
+    src: url('../fonts/RobotoBold.eot');
+    src: url('../fonts/RobotoBold.eot') format('embedded-opentype'),
+         url('../fonts/RobotoBold.woff2') format('woff2'),
+         url('../fonts/RobotoBold.woff') format('woff'),
+         url('../fonts/RobotoBold.ttf') format('truetype'),
+         url('../fonts/RobotoBold.svg#RobotoBold') format('svg');
+}
+@font-face {
+    font-family: 'SFUFuturaLightOblique';
+    src: url('../fonts/SFUFuturaLightOblique.eot');
+    src: url('../fonts/SFUFuturaLightOblique.eot') format('embedded-opentype'),
+         url('../fonts/SFUFuturaLightOblique.woff2') format('woff2'),
+         url('../fonts/SFUFuturaLightOblique.woff') format('woff'),
+         url('../fonts/SFUFuturaLightOblique.ttf') format('truetype'),
+         url('../fonts/SFUFuturaLightOblique.svg#SFUFuturaLightOblique') format('svg');
+}
+@font-face {
+    font-family: 'UVNKyThuat';
+    src: url('../fonts/UVNKyThuat.eot');
+    src: url('../fonts/UVNKyThuat.eot') format('embedded-opentype'),
+         url('../fonts/UVNKyThuat.woff2') format('woff2'),
+         url('../fonts/UVNKyThuat.woff') format('woff'),
+         url('../fonts/UVNKyThuat.ttf') format('truetype'),
+         url('../fonts/UVNKyThuat.svg#UVNKyThuat') format('svg');
+}
+

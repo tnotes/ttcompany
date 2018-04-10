@@ -1,0 +1,10 @@
+const express = require('express');
+const app = express();
+const router = express.Router();
+const todo = require('./controller/router');
+todo(router);
+app.use(express.static('public'));
+app.set('view engine','ejs');
+app.set('views','./views');
+app.use(router);
+app.listen(process.env.PORT || 80);

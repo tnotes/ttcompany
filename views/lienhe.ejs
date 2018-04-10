@@ -1,0 +1,128 @@
+<% include header.ejs%>
+    
+    <div id="main_content">
+        <script type="text/javascript">
+	$(document).ready(function(e) {
+	    $('#lienhe').addClass('active')
+		$('.click_ajax').click(function(){
+			if(isEmpty($('#ten_lienhe').val(), "Xin nhập Họ tên"))
+			{
+				$('#ten_lienhe').focus();
+				return false;
+			}
+			if(isEmpty($('#diachi_lienhe').val(), "Xin nhập Địa chỉ"))
+			{
+				$('#diachi_lienhe').focus();
+				return false;
+			}
+			if(isEmpty($('#dienthoai_lienhe').val(), "Xin nhập Số điện thoại"))
+			{
+				$('#dienthoai_lienhe').focus();
+				return false;
+			}
+			if(isPhone($('#dienthoai_lienhe').val(), "Xin nhập Số điện thoại"))
+			{
+				$('#dienthoai_lienhe').focus();
+				return false;
+			}
+			if(isEmpty($('#email_lienhe').val(), "Email không hợp lệ"))
+			{
+				$('#email_lienhe').focus();
+				return false;
+			}
+			if(isEmail($('#email_lienhe').val(), "Email không hợp lệ"))
+			{
+				$('#email_lienhe').focus();
+				return false;
+			}
+			if(isEmpty($('#tieude_lienhe').val(), "Xin nhập Chủ đề"))
+			{
+				$('#tieude_lienhe').focus();
+				return false;
+			}
+			if(isEmpty($('#noidung_lienhe').val(), "Xin nhập Nội dung"))
+			{
+				$('#noidung_lienhe').focus();
+				return false;
+			}
+			if(isEmpty($('#capcha').val(), "Nhập mã bảo về"))
+			{
+				$('#capcha').focus();
+				return false;
+			}
+			$.ajax({
+				type:'post',
+				url:$(".frm").attr('action'),
+				data:$(".frm").serialize(),
+				dataType:'json',
+				beforeSend: function() {
+					$('.thongbao').html('<p><img src="images/loader_p.gif"></p>');     
+				},
+				error: function(){
+					add_popup('Hệ thống bị lỗi, xin quý khách chuyển sang mục khác.');
+				},
+				success:function(kq){
+					add_popup(kq.thongbao);
+					$('#capcha').val('');
+					if(kq.nhaplai=='nhaplai')
+					{
+						$(".frm")[0].reset();
+					}
+					
+					
+				}
+			});
+		});    
+    });
+</script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#reset_capcha").click(function() {
+			$("#hinh_captcha").attr("src", "sources/captcha.php?"+Math.random());
+			return false;
+		});
+	});
+</script>
+
+<div class="tieude_giua"><div>Liên hệ</div><span></span></div>
+<div class="box_container">
+   <div class="content">
+   		<div class="tt_lh">
+        <p><span font-size:="" lucida="" sans="" style="font-family: ">CÔNG TY TNHH TTCOMPANY</span><br font-size:="" lucida="" sans="" style="font-family: ">
+<img alt="" height="20" src="images/ic33.jpg" width="20"><span font-size:="" lucida="" sans="" style="font-family: "> Địa chỉ: 27/1 Nguyễn Văn Sáng,P.Tân Sơn Nhì,Q. Tân Phú,TP Hồ Chí Minh</span><br font-size:="" lucida="" sans="" style="font-family: ">
+<img alt="" height="20" src="images/ic22.jpg" width="20"><span font-size:="" lucida="" sans="" style="font-family: "> Điện thoại: 0888377383</span><br font-size:="" lucida="" sans="" style="font-family: ">
+<img alt="" height="20" src="images/ic11.jpg" width="20"><span font-size:="" lucida="" sans="" style="font-family: "> Email: t.tglasscompany@gmail.com</span><br font-size:="" lucida="" sans="" style="font-family: ">
+<img alt="" height="20" src="images/ic44.jpg" width="20"><span font-size:="" lucida="" sans="" style="font-family: "> Website: ttcompany.vn</span></p>
+ 
+		<div class="frm_lienhe">
+        	<form method="post" name="frm" class="frm" action="ajax/contact.php" enctype="multipart/form-data">
+            	<div class="loicapcha thongbao"></div>
+            	<div class="item_lienhe"><p>Họ và tên:<span>*</span></p><input name="ten_lienhe" type="text" id="ten_lienhe"></div>
+                
+                <div class="item_lienhe"><p>Địa chỉ:<span>*</span></p><input name="diachi_lienhe" type="text" id="diachi_lienhe"></div>
+                
+                <div class="item_lienhe"><p>Điện thoại:<span>*</span></p><input name="dienthoai_lienhe" type="text" id="dienthoai_lienhe"></div>
+                
+                <div class="item_lienhe"><p>Email:<span>*</span></p><input name="email_lienhe" type="text" id="email_lienhe"></div>
+                
+                <div class="item_lienhe"><p>Chủ đề:<span>*</span></p><input name="tieude_lienhe" type="text" id="tieude_lienhe"></div>
+                
+                <div class="item_lienhe"><p>Nội dung:<span>*</span></p><textarea name="noidung_lienhe" id="noidung_lienhe" rows="5"></textarea></div>
+
+                
+                <div class="item_lienhe">
+                	<p>&nbsp;</p>
+                	<input type="button" value="Gửi" class="click_ajax">
+                    <input type="button" value="Nhập lại" onclick="document.frm.reset();">
+                </div>
+            </form>
+        </div><!--.frm_lienhe-->   
+        </div>     
+      
+
+   </div><!--.content--> 
+</div><!--.box_container-->  
+    </div><!---END #main_content-->
+    
+<% include footer.ejs%>

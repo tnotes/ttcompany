@@ -1,0 +1,19 @@
+<% include header.ejs %>
+<div id="main_content">
+    <div class="tieude_giua"><div><%= name %></div><span></span></div>
+    <div class="box_container">
+        <div class="content">
+            <p style="text-align:center">
+                <% for(var i =0;i<result.length;i++){%>
+
+
+                <img alt="CÔNG TY TNHH GLASSO" height="2408" src="  <%= result[i] %>" width="1600"></p>
+            <%}%>
+            <p>&nbsp;</p>
+
+        </div><!--.content-->
+    </div><!--.box_container-->
+
+</div>
+
+<% include footer.ejs %>
