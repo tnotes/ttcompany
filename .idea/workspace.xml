@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7b09250-50bd-48b5-a6cb-54c6c39aa872" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/404.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/agc-2481.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/ajax-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/back_to_top.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/bgabout.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/dupont-1931.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/glass-top-dining-table-with-original-base-5-copy-7476.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/glasso-4045.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/glasso-kinh-mau-4502.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/grace_logo_hcolor-8946.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/htt2-2678.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/images-8895.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/img_0027-7181.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/img_0760-8469.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/img_0762-5060.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/img_0775-8523.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/img_1161-6270.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/img_1771-3270.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/img_1777-2050.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/img_2396-9338.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/img_7089-5007.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/img_7103-3428.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/solutia-logo-2548.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/vp-puma-binh-duong32-1384.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
-    </list>
+    <list default="true" id="d7b09250-50bd-48b5-a6cb-54c6c39aa872" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -77,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="143" column="159" selection-start-line="143" selection-start-column="159" selection-end-line="143" selection-end-column="159" />
+            <state relative-caret-position="-604">
+              <caret line="159" column="162" selection-start-line="159" selection-start-column="162" selection-end-line="159" selection-end-column="162" />
               <folding>
                 <element signature="e#5147#5168#0#HTML" expanded="true" />
               </folding>
@@ -107,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lienhe.ejs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="lienhe.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/lienhe.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1768">
-              <caret line="122" selection-start-line="122" selection-end-line="122" />
+            <state relative-caret-position="170">
+              <caret line="91" column="87" selection-start-line="91" selection-start-column="87" selection-end-line="91" selection-end-column="87" />
             </state>
           </provider>
         </entry>
@@ -119,8 +92,8 @@
       <file leaf-file-name="footer.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/footer.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+            <state relative-caret-position="154">
+              <caret line="13" column="115" selection-start-line="13" selection-start-column="115" selection-end-line="13" selection-end-column="115" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#!!top" expanded="true" />
@@ -162,7 +135,7 @@
       <find>kinh-p</find>
       <find>GLASSO</find>
       <find>js_1</find>
-      <find />
+      <find>Style is the only constant in life!</find>
       <find>.html</find>
     </findStrings>
     <replaceStrings>
@@ -189,10 +162,10 @@
         <option value="$PROJECT_DIR$/views/header.ejs" />
         <option value="$PROJECT_DIR$/views/tintuc.ejs" />
         <option value="$PROJECT_DIR$/views/sanpham.ejs" />
-        <option value="$PROJECT_DIR$/views/lienhe.ejs" />
-        <option value="$PROJECT_DIR$/views/footer.ejs" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/views/index.ejs" />
+        <option value="$PROJECT_DIR$/views/footer.ejs" />
+        <option value="$PROJECT_DIR$/views/lienhe.ejs" />
       </list>
     </option>
   </component>
@@ -283,25 +256,24 @@
       <option name="presentableId" value="Default" />
       <updated>1523277390250</updated>
       <workItem from="1523277392850" duration="3760000" />
-      <workItem from="1523285269944" duration="13948000" />
+      <workItem from="1523285269944" duration="14386000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17708000" />
+    <option name="totallyTimeSpent" value="18146000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49861497" visible="true" weight="0.1845238" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49861497" visible="true" weight="0.1845238" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5014881" side_tool="true" weight="0.2555746" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" sideWeight="0.50138503" side_tool="true" weight="0.23586309" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4985119" visible="true" weight="0.34991422" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4985119" visible="true" weight="0.34991422" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -493,24 +465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/lienhe.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="122" selection-start-line="122" selection-end-line="122" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/footer.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -520,11 +474,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="143" column="159" selection-start-line="143" selection-start-column="159" selection-end-line="143" selection-end-column="159" />
+        <state relative-caret-position="-604">
+          <caret line="159" column="162" selection-start-line="159" selection-start-column="162" selection-end-line="159" selection-end-column="162" />
           <folding>
             <element signature="e#5147#5168#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/footer.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="13" column="115" selection-start-line="13" selection-start-column="115" selection-end-line="13" selection-end-column="115" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/lienhe.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="91" column="87" selection-start-line="91" selection-start-column="87" selection-end-line="91" selection-end-column="87" />
         </state>
       </provider>
     </entry>
