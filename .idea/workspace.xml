@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7b09250-50bd-48b5-a6cb-54c6c39aa872" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/header.ejs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.ejs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="header.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/header.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="310" column="87" selection-start-line="310" selection-start-column="87" selection-end-line="310" selection-end-column="87" />
+            <state relative-caret-position="95">
+              <caret line="232" column="46" selection-start-line="232" selection-start-column="46" selection-end-line="232" selection-end-column="46" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -43,7 +43,7 @@
       <file leaf-file-name="vatlieu.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/vatlieu.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-550">
+            <state relative-caret-position="-535">
               <caret column="22" selection-start-column="22" selection-end-column="22" />
             </state>
           </provider>
@@ -58,17 +58,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="154" column="41" selection-start-line="154" selection-start-column="41" selection-end-line="154" selection-end-column="41" />
+            <state relative-caret-position="1938">
+              <caret line="114" column="30" selection-start-line="114" selection-start-column="30" selection-end-line="114" selection-end-column="30" />
               <folding>
+                <element signature="e#4122#4143#0#HTML" expanded="true" />
                 <element signature="e#5147#5168#0#HTML" expanded="true" />
                 <element signature="e#5662#5683#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kinh-phong-tam.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/sp/kinh-phong-tam.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file leaf-file-name="tintuc.ejs" pinned="false" current-in-tab="false">
@@ -134,17 +140,17 @@
       <find>/san-pham</find>
       <find>kinh-p</find>
       <find>js_1</find>
-      <find />
+      <find>Style is the only constant in life!</find>
       <find>ith9nkFizntyHQyW8WhJnSQN6tArCAYmiMUH8RLYYdvc86DO4goOWBcAkdZYipTPbE_I_h16RhiKsFMc1QN0=w1366-h662-rw</find>
       <find>GLASSO</find>
-      <find>T.T</find>
       <find>.html</find>
       <find>TTCompany</find>
+      <find>T.T</find>
     </findStrings>
     <replaceStrings>
       <replace>TTCompany</replace>
-      <replace />
       <replace>T.T</replace>
+      <replace>Đầu Tư Kinh Doanh T.T</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -168,9 +174,9 @@
         <option value="$PROJECT_DIR$/views/sanpham.ejs" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/views/lienhe.ejs" />
-        <option value="$PROJECT_DIR$/views/header.ejs" />
         <option value="$PROJECT_DIR$/views/footer.ejs" />
         <option value="$PROJECT_DIR$/views/index.ejs" />
+        <option value="$PROJECT_DIR$/views/header.ejs" />
       </list>
     </option>
   </component>
@@ -272,12 +278,12 @@
       <option name="presentableId" value="Default" />
       <updated>1523277390250</updated>
       <workItem from="1523277392850" duration="3760000" />
-      <workItem from="1523285269944" duration="16892000" />
+      <workItem from="1523285269944" duration="17745000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20652000" />
+    <option name="totallyTimeSpent" value="21505000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -367,6 +373,7 @@
         <state relative-caret-position="7446">
           <caret line="438" column="1" selection-start-line="438" selection-start-column="1" selection-end-line="438" selection-end-column="1" />
           <folding>
+            <element signature="e#4122#4143#0#HTML" expanded="true" />
             <element signature="e#5147#5168#0#HTML" expanded="true" />
             <element signature="e#5662#5683#0#HTML" expanded="true" />
           </folding>
@@ -487,13 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/vatlieu.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-550">
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/sanpham.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -515,19 +515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/header.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="310" column="87" selection-start-line="310" selection-start-column="87" selection-end-line="310" selection-end-column="87" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/footer.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -542,13 +529,37 @@
     <entry file="file://$PROJECT_DIR$/public/sp/op-bep.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/sp/kinh-phong-tam.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/vatlieu.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-535">
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="154" column="41" selection-start-line="154" selection-start-column="41" selection-end-line="154" selection-end-column="41" />
+        <state relative-caret-position="1938">
+          <caret line="114" column="30" selection-start-line="114" selection-start-column="30" selection-end-line="114" selection-end-column="30" />
           <folding>
+            <element signature="e#4122#4143#0#HTML" expanded="true" />
             <element signature="e#5147#5168#0#HTML" expanded="true" />
             <element signature="e#5662#5683#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/header.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="232" column="46" selection-start-line="232" selection-start-column="46" selection-end-line="232" selection-end-column="46" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
