@@ -83,7 +83,7 @@ div#wapper
     display: inline-block;
     vertical-align: top;
     padding: 11px 0px;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #fffcf6;
     color: #7F879E;
     font-size: 13px;    
 }
@@ -92,7 +92,7 @@ div#wapper
 	width: 20%;
 	display: inline-block;
 	vertical-align: top;
-	border-bottom: 1px solid red;
+	border-bottom: 1px solid #fffcf6;
 	padding: 7px 0px;
 	text-align: right;
 }
@@ -165,7 +165,7 @@ div.menu ul li a
 
 div.menu ul li a:hover,div.menu ul li a.active,div.menu ul li a.active2
 {
-	border-bottom: 5px solid red;
+	border-bottom: 5px solid #6d5452;
 }
 div.menu ul li ul,div.menu ul li:hover ul li ul
 {
