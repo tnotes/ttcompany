@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7b09250-50bd-48b5-a6cb-54c6c39aa872" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/views/footer.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/footer.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -58,13 +58,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="87" column="32" selection-start-line="87" selection-start-column="32" selection-end-line="87" selection-end-column="32" />
+            <state relative-caret-position="193">
+              <caret line="154" column="41" selection-start-line="154" selection-start-column="41" selection-end-line="154" selection-end-column="41" />
               <folding>
                 <element signature="e#5147#5168#0#HTML" expanded="true" />
+                <element signature="e#5662#5683#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,15 +80,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="27" selection-start-line="27" selection-end-line="34" selection-end-column="132" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="lienhe.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/lienhe.ejs">
           <provider selected="true" editor-type-id="text-editor">
@@ -97,10 +89,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="footer.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/footer.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
+            <state relative-caret-position="34">
               <caret line="20" column="176" selection-start-line="20" selection-start-column="176" selection-end-line="20" selection-end-column="176" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -142,17 +134,17 @@
       <find>/san-pham</find>
       <find>kinh-p</find>
       <find>js_1</find>
-      <find>Style is the only constant in life!</find>
+      <find />
       <find>ith9nkFizntyHQyW8WhJnSQN6tArCAYmiMUH8RLYYdvc86DO4goOWBcAkdZYipTPbE_I_h16RhiKsFMc1QN0=w1366-h662-rw</find>
       <find>GLASSO</find>
-      <find>TTCompany</find>
-      <find>.html</find>
       <find>T.T</find>
+      <find>.html</find>
+      <find>TTCompany</find>
     </findStrings>
     <replaceStrings>
       <replace>TTCompany</replace>
+      <replace />
       <replace>T.T</replace>
-      <replace>Đầu Tư Kinh Doanh T.T</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -176,9 +168,9 @@
         <option value="$PROJECT_DIR$/views/sanpham.ejs" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/views/lienhe.ejs" />
-        <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/views/header.ejs" />
         <option value="$PROJECT_DIR$/views/footer.ejs" />
+        <option value="$PROJECT_DIR$/views/index.ejs" />
       </list>
     </option>
   </component>
@@ -226,6 +218,17 @@
             <path>
               <item name="access" type="b2602c69:ProjectViewProjectNode" />
               <item name="access" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="access" type="b2602c69:ProjectViewProjectNode" />
+              <item name="access" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="sp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="access" type="b2602c69:ProjectViewProjectNode" />
+              <item name="access" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -269,12 +272,12 @@
       <option name="presentableId" value="Default" />
       <updated>1523277390250</updated>
       <workItem from="1523277392850" duration="3760000" />
-      <workItem from="1523285269944" duration="15981000" />
+      <workItem from="1523285269944" duration="16892000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19741000" />
+    <option name="totallyTimeSpent" value="20652000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -365,6 +368,7 @@
           <caret line="438" column="1" selection-start-line="438" selection-start-column="1" selection-end-line="438" selection-end-column="1" />
           <folding>
             <element signature="e#5147#5168#0#HTML" expanded="true" />
+            <element signature="e#5662#5683#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -511,16 +515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="87" column="32" selection-start-line="87" selection-start-column="32" selection-end-line="87" selection-end-column="32" />
-          <folding>
-            <element signature="e#5147#5168#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/header.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -536,11 +530,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/footer.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
+        <state relative-caret-position="34">
           <caret line="20" column="176" selection-start-line="20" selection-start-column="176" selection-end-line="20" selection-end-column="176" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/sp/op-bep.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="154" column="41" selection-start-line="154" selection-start-column="41" selection-end-line="154" selection-end-column="41" />
+          <folding>
+            <element signature="e#5147#5168#0#HTML" expanded="true" />
+            <element signature="e#5662#5683#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
