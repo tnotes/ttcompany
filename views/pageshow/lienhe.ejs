@@ -3,7 +3,11 @@
     <div id="main_content">
         <script type="text/javascript">
 	$(document).ready(function(e) {
-	    $('#lienhe').addClass('active')
+	    $('ul#menu_task>li').each(function(e){
+	      $('ul#menu_task>li:eq('+e+')>a').removeClass('active');
+        })
+        $('a#lienhe').addClass('active');
+
 		$('.click_ajax').click(function(){
 			if(isEmpty($('#ten_lienhe').val(), "Xin nhập Họ tên"))
 			{
@@ -76,14 +80,6 @@
     });
 </script>
 
-<script type="text/javascript">
-	$(document).ready(function(){
-		$("#reset_capcha").click(function() {
-			$("#hinh_captcha").attr("src", "sources/captcha.php?"+Math.random());
-			return false;
-		});
-	});
-</script>
 
 <div class="tieude_giua"><div>Liên hệ</div><span></span></div>
 <div class="box_container">

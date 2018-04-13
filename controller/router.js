@@ -1,21 +1,21 @@
 const table = require('./../model/model');
 module.exports = function (router) {
         router.get('/',(req,res)=>{
-            res.render('index');
+            res.render('pageshow/index');
         });
         router.get('/san-pham/:loai',(req,res)=>{
             table.sanpham.find({path:req.params.loai}).exec((err,result)=>{
-                res.render('view_san_pham',{name:result[0].name,result:result[0].url})
+                res.render('pageshow/view_san_pham',{name:result[0].name,result:result[0].url})
             })
         });
         router.get('/cong-ty',(req,res)=>{
-            res.render('congty');
+            res.render('pageshow/congty');
         });
         router.get('/vat-lieu',(req,res)=>{
-            res.render('vatlieu');
+            res.render('pageshow/vatlieu');
         });
         router.get('/san-pham',(req,res)=>{
-            res.render('sanpham');
+            res.render('pageshow/sanpham');
         });
         router.get('/tin-tuc',(req,res)=>{
             table.congtrinhnoibat.find({}).exec((err,result)=>{
@@ -24,7 +24,7 @@ module.exports = function (router) {
             })
         });
         router.get('/lien-he',(req,res)=>{
-            res.render('lienhe')
+            res.render('pageshow/lienhe')
         });
 
 

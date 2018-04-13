@@ -1,4 +1,12 @@
 <% include header.ejs %>
+<script>
+    $(document).ready(function(){
+        $('ul#menu_task>li').each(function(e){
+            $('ul#menu_task>li:eq('+e+')>a').removeClass('active');
+        })
+        $('a#sanpham').addClass('active');
+    })
+</script>
     <div id="main_content">
         <div class="tieude_giua"><div>Sản phẩm</div><span></span></div>
 <div class="box_container">
