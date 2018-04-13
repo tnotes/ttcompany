@@ -122,15 +122,16 @@ div#lang a img
 /*menu*/
 div.wap_menu
 {
-	position:relative;
-	background:#0d0d0d;
+    position: relative;
+    background-color: black;
     height: 75px;
     line-height: 70px;
 	margin:auto;
 }
 div.menu
 {
-	position:relative;
+    background-color: black;
+    position: relative;
 	max-width:1200px;
 	margin:auto;
 }
